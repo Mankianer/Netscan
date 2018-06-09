@@ -6,8 +6,17 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CMD {
+/**
+ * Prozzes commandline commands for Windows Cmd
+ */
+public class Cmd {
 
+    /**
+     *
+     * @param command parameter of the command: <br>"echo test" => [echo, test]
+     * @return all outPut off Cmd each String = Line
+     * @throws IOException
+     */
     public static String[] doCommand(List<String> command) throws IOException
     {
         ArrayList<String> ret = new ArrayList<>();
