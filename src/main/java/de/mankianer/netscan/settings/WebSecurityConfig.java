@@ -1,4 +1,4 @@
-package de.mankianer.netscan;
+package de.mankianer.netscan.settings;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

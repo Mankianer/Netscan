@@ -2,7 +2,6 @@ package de.mankianer.netscan.util;
 
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class Ping {
@@ -19,7 +18,7 @@ public class Ping {
         commands.add("1");
         commands.add("192.168.178.184");
 
-        return CmdToPing(CMD.doCommand(commands));
+        return CmdToPing(Cmd.doCommand(commands));
     }
 
     private static int CmdToPing(String[] outPut)
